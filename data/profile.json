@@ -1,0 +1,7 @@
+{
+  "target_functions": ["program management", "technical program management", "product management", "ai product management", "strategy and operations", "founders office", "chief of staff"],
+  "target_domains": ["e-commerce", "marketplace", "fintech", "banking", "bfsi", "platform", "saas", "trust and safety", "customer experience", "contact center"],
+  "years_experience": 12,
+  "keywords": ["genai", "llm", "rag", "agentic", "evaluation", "roadmap", "stakeholder management", "pmo", "governance", "program management", "cost transformation", "operating model", "automation", "risk", "metrics", "cross-functional", "launch", "experimentation", "prompt", "human in the loop"],
+  "gate": 85
+}

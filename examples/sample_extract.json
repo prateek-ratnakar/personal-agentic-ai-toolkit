@@ -1,0 +1,9 @@
+{
+  "title": "Senior AI Product Manager - Customer Support Platform",
+  "function": "ai product management",
+  "domain": "saas, customer support",
+  "min_years": 8,
+  "level_words": ["senior"],
+  "required_skills": ["roadmap", "evaluation sets", "llm", "rag", "prompt design", "human in the loop", "stakeholder management", "cross-functional leadership", "metrics", "genai"],
+  "ai_signal": "core"
+}

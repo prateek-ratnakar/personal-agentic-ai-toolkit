@@ -1,0 +1,16 @@
+Senior AI Product Manager - Customer Support Platform (Remote, India)
+
+We are a B2B SaaS company building AI agents for customer support teams.
+You will own the roadmap for our agent-assist and autonomous resolution features.
+
+What you will do
+- Own the roadmap from discovery through launch and post-launch iteration
+- Define evaluation sets and quality bars for LLM features before they ship
+- Decide which actions an AI agent may take alone and which need a human in the loop
+- Partner with engineering on RAG and prompt design, and with sales on rollout
+
+What you bring
+- 8+ years of experience, including 3+ years in product or program management
+- Shipped LLM or GenAI features in production
+- Strong stakeholder management and cross-functional leadership
+- Comfort with metrics: resolution rate, handle time, cost per ticket

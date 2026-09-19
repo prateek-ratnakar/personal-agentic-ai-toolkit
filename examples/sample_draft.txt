@@ -1,0 +1,4 @@
+- Shipped 14 RAG-grounded production systems, taking adoption from 0 to 43.2% in two quarters and cutting model hallucination 50%.
+- Halved resolution time from 15 to 7.5 minutes for 5,000 investigators through an AI case-resolution platform.
+- Raised first-contact resolution 16 points (44% to 60%) on a 2,500-user tooling platform.
+- Cut cost per ticket 35% by routing simple contacts to autonomous resolution.
