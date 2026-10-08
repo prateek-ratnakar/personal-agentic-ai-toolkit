@@ -1,4 +1,4 @@
-# personal-agentic-ai-toolkit
+<p align="center"><img src="assets/banner.svg" alt="Personal Agentic AI Toolkit" width="100%"></p>
 
 Personal AI agents I designed and built with Claude. The first one is a **job-fit agent**: it reads a
 job description, scores it against a fixed rubric, drafts resume bullets using only
@@ -9,7 +9,7 @@ and hands the final decision to a person.
 
 I designed these agents: the pipeline, the scoring rubric, the grounding rule, the human gate,
 the evaluation approach and the prompts. Claude, an AI assistant, wrote the code to my
-specification. I am not a software developer and do not read application code.
+specification. I direct the build at the design and requirements layer, and I do not write or review application code.
 
 ## What is in this repository
 
