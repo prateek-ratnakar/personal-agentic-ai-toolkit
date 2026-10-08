@@ -9,7 +9,7 @@ and hands the final decision to a person.
 
 I designed these agents: the pipeline, the scoring rubric, the grounding rule, the human gate,
 the evaluation approach and the prompts. Claude, an AI assistant, wrote the code to my
-specification. I am not a developer and do not read code.
+specification. I am not a software developer and do not read application code.
 
 ## What is in this repository
 
