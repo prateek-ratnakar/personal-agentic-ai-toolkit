@@ -1,9 +1,24 @@
 # personal-agentic-ai-toolkit
 
-Personal AI agents built with Claude. The first one is a **job-fit agent**: it reads a
+Personal AI agents I designed and built with Claude. The first one is a **job-fit agent**: it reads a
 job description, scores it against a fixed rubric, drafts resume bullets using only
 facts from an achievement bank, blocks any draft that contains an unverified number,
 and hands the final decision to a person.
+
+## Who built what
+
+I designed these agents: the pipeline, the scoring rubric, the grounding rule, the human gate,
+the evaluation approach and the prompts. Claude, an AI assistant, wrote the code to my
+specification. I am not a developer and do not read code.
+
+## What is in this repository
+
+| Folder | What it holds |
+|---|---|
+| `job_fit_agent/`, `evals/`, `examples/`, `data/` | The job-fit agent described below: running code, an eval harness and an offline demo |
+| `resume-pipeline/` | The build-and-verify checks for one-page resume PDFs, with the documented failure modes |
+| `job-search-agent/` | Design notes and the scoring rubric for the wider multi-user job-search agent |
+| `shopping-insights-agent/` | Design notes and prompt patterns for a personal purchase-history agent |
 
 ## Job-fit agent
 
