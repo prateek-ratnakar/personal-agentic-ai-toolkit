@@ -1,0 +1,5 @@
+data/my_bank.md
+data/decisions.csv
+__pycache__/
+*.pyc
+.env
