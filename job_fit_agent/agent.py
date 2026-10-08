@@ -58,17 +58,17 @@ def main():
         from .tailor import tailor
         draft, usage = tailor(jd, bank)
         print(f"[tailor] tokens in/out: {usage['input_tokens']}/{usage['output_tokens']}")
-    print("\n== Draft bullets ==")
-    print(draft)
-
-    # Box 5 - Grounding check
+    # Box 5 - Grounding check runs before the draft is shown
     g = grounding.check(draft, bank)
     print("\n== Grounding check ==")
-    if g["passed"]:
-        print("  PASS - every number traces to the bank")
-    else:
+    if not g["passed"]:
         print(f"  BLOCKED - numbers not in the bank: {', '.join(g['ungrounded'])}")
-        print("  The draft does not reach you until these are removed or added to the bank.")
+        print("  The draft is withheld until these are removed or added to the bank.")
+        print(f"\n[latency] {time.time() - t0:.1f}s")
+        return
+    print("  PASS - every number traces to the bank")
+    print("\n== Draft bullets ==")
+    print(draft)
 
     print(f"\n[latency] {time.time() - t0:.1f}s")
 
